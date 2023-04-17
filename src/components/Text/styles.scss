@@ -1,0 +1,22 @@
+@import "../../styles/styles.scss";
+
+.paragraph{
+    margin: auto;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    padding-right: 80px;
+    padding-left: 80px;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    color: $text-color;
+}
+
+p {
+    margin: 0px;
+}
