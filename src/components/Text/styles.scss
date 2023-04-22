@@ -15,6 +15,9 @@
     line-height: 22px;
     text-align: center;
     color: $text-color;
+    @media screen and (max-width: 767px) {
+        font-size: 14px;
+    }
 }
 
 p {

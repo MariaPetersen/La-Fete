@@ -19,6 +19,9 @@
     text-shadow: 1px 1px 2px black;
     margin-bottom: 16px;
     position: relative;
+    @media screen and (max-width: 767px) {
+        font-size: 14px;
+    }
     &:before{
         content: '';
             position: absolute;
@@ -51,13 +54,53 @@
         bottom: 0px;
         left: 0px;
     }
+    &.active{
+        &::after{
+            background-color: $selected-color;
+        }
+    }
     &--container{
-        display: flex;
         flex-direction: row;
-        width: 100%;
-        justify-content: space-around;
-        padding-right: 10px;
-        padding-left: 10px;
-    
+        @include menu-container;
+        @media screen and (max-width: 767px) {
+            display: none;
+        }
+    }
+    &--hamburger{
+        @include menu-container;
+        display: none;
+        @media screen and (max-width: 767px) {
+            flex-direction: column;
+            align-items: center;
+            display: flex;
+            position: relative;
+            margin-top: 20px;
+            margin-bottom: 20px;
+            width: fit-content;
+            height: fit-content;
+        }
+    }
+    @media screen and (max-width: 767px) {
+        flex-direction: column;
     }
 }
+
+.menu-button{
+    display: flex;
+    @include menu-stripe;
+    margin-top: 20px;
+    &::before{
+        @include menu-stripe;
+        margin-top: -8px;
+        @include pseudo-element;
+        
+    }
+    &::after{
+        @include menu-stripe;
+        margin-top: -16px;
+        @include pseudo-element;
+    }
+}
+
+
+ 

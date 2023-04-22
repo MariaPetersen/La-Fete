@@ -11,6 +11,9 @@
     font-size: 32px;
     line-height: 44px;
     width: fit-content;
+    @media screen and (max-width: 767px) {
+        font-size: 18px;
+    }
     &::after{
         content: '';
         position: absolute;

@@ -1,0 +1,18 @@
+@mixin menu-container{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+@mixin menu-stripe {
+    background-color: $line-color;
+    height: 4px;
+    width: 30px;
+}
+
+@mixin pseudo-element {
+    content: '';
+    position: absolute;
+}
