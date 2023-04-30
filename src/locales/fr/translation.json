@@ -1,0 +1,185 @@
+{
+   "home":{
+        "title": "Présentation", 
+        "paragraphs": {
+            "one": "“La Fête” ? C’est quoi les bails ?",
+            "two": "Comme son nom l’indique, la Fête est un événement festif autour de belles valeurs partagées, le tout participatif. Plus précisément, on vous invite à passer 3 jours ensemble dans un grand gite à s’amuser, discuter, danser, profiter du soleil et de la piscine ou toute autre activité que vous aimeriez proposer.",
+            "three": "La Fête est née de la célébration des anniversaires et de l’amour unissant de deux meilleur·es ami·es, Romain et Ana. Pour sa troisième édition, nous souhaitons perpétuer ce rendez-vous estival. La Fête revient donc en 2023 pour un moment magique et grandiose avec juste une bonne dose de folie. Réservez votre weekend du vendredi 20 au dimanche 23 juillet (possibilité de rester jusqu'au lundi 24).",
+            "four": "Et parce qu’on aime célébrer, créer, se déguiser, on vous propose lors de la Fête de participer à deux cérémonies un peu symboliques autour du thème \"Bacchanale de l’Espace\". Jetez un oeil à l'onglet \"cérémonies\" dans la partie \"activités\" pour plus d’infos !"
+        },
+        "menu":{
+            "one": "Infos pratiques",
+            "two": "Activités",
+            "three": "Nos principes et valeurs"
+        }
+    }, 
+
+    "practicalInfo": {
+        "title": "Infos pratiques",
+        "location": {
+            "title": "Lieu, dates et transport",
+            "info": {
+                "titles": {
+                    "date": "Dates : ",
+                    "place": "Adresse : ",
+                    "train": "Gare la plus proche : "
+
+                },
+                "date": "Vendredi 21 juillet au dimanche 23 juillet 2023",
+                "place": "Domaine des Lammes, 1 Rue des Surgeons, 89210 Venizy",
+                "train": "Saint-Florentin - Vergigny (1h30 de trajet en TER depuis Paris Bercy)"
+             },
+            "paragraphs": {
+                "one": "Cette année la Fête a lieu au Domaine des Lammes. Ce grand gîte au milieu des champs peut accueillir une cinquantaine de personnes. Il contient notamment deux grandes maisons remplies de chambres et salles de bain, une salle de réception, une cuisine-salle à manger,une grande piscine… (Regardez les belles photos en bas de cette page !)",
+                "two": "Le gîte se situe dans l’Yonne, à un peu plus de 2h de Paris en voiture.",
+                "three": "Les personnes arrivant en train seront récupérées à la gare, nous vous communiquerons les horaires des trains à prendre pour organiser des arrivées groupées.",
+                "four": "Possibilité d’arriver le jeudi et/ou de repartir de lundi (prévoir 30€ par nuit supplémentaire)"
+            },
+            "timetable": {
+                "title": "Horaires de train",
+                "times": {
+                    "one": "07h35 (arrivée à Saint Florentin à 9h11)",
+                    "two": "13h35  (arrivée à Saint Florentin à 15h11)",
+                    "three": "15h34 (arrivée à Saint Florentin à 17h11)",
+                    "four": "17h27 (aarrivée à Saint Florentin à 19h11)",
+                    "five": "19h27  (arrivée à Saint Florentin à 21h11) -  dernier train"
+                }
+            }
+        },
+        "planning": {
+            "title": "Planning cuisine et ménage",
+            "paragraphs": {
+                "one": "A venir",
+                "two": "Ici vous retrouverez l’organisation des repas et du débarrassage."
+            }
+        },
+        "rooms":{
+            "title": "Chambres et wifi",
+            "paragraphs": {
+                "one": "A venir",
+                "two": "Ici vous retrouverez les plans de chambre"
+            }
+        },
+        "government":{
+            "title": "Organisation / leads / gouvernement",
+            "paragraphs": {
+                "one": "A venir"
+            }
+            
+        }
+    },
+
+    "activites":{
+        "title": "Activités",
+        "ceremonies": {
+            "title": "Soirées et cérémonies",
+            "description": "A l’origine, la Fête est née d’une volonté de célébrer des anniversaires et des amitiés d’une manière différente. Les cérémonies qui en sont nées, mises en scène créatives autour d’un thème (sans contenu religieux ou spirituel quelconque, précisons-le), donnent son sens à la Fête et sont parmi les moments qui ont le plus marqué les participant·es. Elles sont la petite apothéose du week-end et permettent de nous relier les uns aux autres autant que d’exprimer notre créativité. C’est donc plus qu’une soirée déguisée alcoolisée que nous vous proposons : c’est un moment de partage théâtralisé qui incarne de chouettes valeurs et le plaisir de construire collectivement. Plus chacun·e s’y exprime, plus nous serons grandioses ensemble.",
+            "events": {
+                "friday": {
+                    "title": "Vendredi : “Curiosités venues d’ailleurs”",
+                    "description": "Creusez dans votre imagination et votre garde robe et venez incarner un être d’une autre galaxie. Cette soirée cosmique sera placée sous le signe de la rencontre, de l'altérité et de l’ouverture. L’espace est bien assez vaste pour contenir toutes sortes d’entités…"
+                },
+                "saturday": {
+                    "title": "Samedi : “Rave mythologique”",
+                    "description": "Pour cette soirée de Bacchanale (fête en l’honneur Bacchus), on vous propose de revisiter la mythologie grecque de façon contemporaine. Piochez dans le répertoire des divinités, des héros et des créatures fantastiques du monde antique pour élaborer votre tenue et venir célébrer l’ivresse, les excès et la joie d’être ensemble."
+                }
+            }
+        },
+        "friday": {
+            "title": "Vendredi", 
+            "description": "A venir",
+            "activities": "Ici vous retrouverez le planning des activités proposées par les membres de la Fête et auxquelles vous pourrez participer !",
+            "ceremony": {
+                "title": "Soir : ",
+                "description": "Cérémonie “Curiosités venues d’ailleurs” et partyyyyy"
+            }
+        }, 
+        "saturday": {
+            "title": "Samedi", 
+            "description": "A venir",
+            "activities": "Ici vous retrouverez le planning des activités proposées par les membres de la Fête et auxquelles vous pourrez participer !",
+            "ceremony": {
+                "title": "Soir : ",
+                "description": "Cérémonie “Rave mythologique” et partyyyy"
+            }
+            
+        }, 
+        "sunday": {
+            "title": "Dimanche",
+            "description": "A venir",
+            "activities": "Ici vous retrouverez le planning des activités proposées par les membres de la Fête et auxquelles vous pourrez participer !"
+        }
+        
+    },
+
+    "values": {
+        "title": "Nos principes et valeurs",
+        "description": "La Fête n'est pas un simple weekend entre ami·es où l'alcool coule à flot, nous souhaitons que ce soit un véritable moment partagé, une expérience construite ensemble. Voici quelques principes et valeurs au cœur de cet événement.",
+        "participation": {
+            "title": "Participation",
+            "description": {
+                 "one": "Tout au long des festivités, chaque personne est invitée à participer à la création de l'événement selon ses envies, ses moyens et ses compétences. Vous pouvez rejoindre l’équipe de cuisine, organiser une activité, aller chercher en voiture celles et ceux qui arrivent par la gare… L’important, c’est de s’impliquer !"
+            }
+           
+        },
+        "bilinguism": {
+            "title": "Bilinguisme",
+            "description": {
+                "one": "La Fête n’est pas réservée aux francophones, certaines personnes viennent du Royaume-Unis, de Slovénie ou d’ailleurs. Afin que tout le monde soit inclus, la communication se fera en français et en anglais. Vous êtes encouragé·es à surmonter la barrière de la langue, à traduire quand vous le pouvez, bref à trouver les meilleurs moyens pour communiquer selon la situation."
+            }
+            
+        },
+        "selfexpression": {
+            "title": "Expression de soi",
+            "description": {
+                "one": "Les injonctions et conventions nous pèsent au quotidien. Pendant, la Fête n’hésitez pas à les envoyer valser, à être vous-même. Profitons aussi de cet espace pour nous exprimer et pour créer : tous les ateliers créatifs sont les bienvenus."
+            }
+            
+        },
+        "tolerance": {
+            "title": "Tolérance",
+            "description": {
+                "one": "Les participant·es viennent de différents milieux, pays, et cheminements personnels. Leurs expressions de genre, leurs orientations sexuelles, leurs positions politiques ou leurs régimes alimentaires peuvent être différents des vôtres. Afin que chacun·e passe un moment merveilleux, nous vous encourageons chacun à faire preuve d’empathie, de bienveillance et d’ouverture d’esprit."
+            }
+            
+        },
+        "consent": {
+            "title": "Consentement",
+            "description": {
+                "one": "Nous souhaitons que chaque personne se sente en sécurité et respectée pendant la Fête. Pas de secret, le consentement, c’est la clé : demandez-le explicitement, de quelque façon que ce soit, avant de toucher ou de vous imposer aux autres. S’il n’y a pas de oui enthousiaste, ça veut dire non. Respectons les limites de tout le monde et n’oublions pas que le consentement peut être révoqué à tout moment."
+            }
+            
+        },
+        "traces": {
+            "title": "Ne pas laisser de traces",
+            "description": {
+                "one": "Lors de la Fêtes, nous comptons nous approprier l’espace et les décorations en tous genre seront les bienvenues. Mais notre événement est éphémère et il est important de rendre le lieu dans le même état que celui où nous l’avons trouvé. Merci de faire attention à ramasser et trier vos déchets et ne pas laisser traîner vos verres sales."
+            }
+            
+        },
+        "gifts": {
+            "title": "Don",
+            "description": {
+                "one": "Donner de son temps, offrir un livre, prêter un de ses vêtements parce qu’il ira mieux à cet inconnu, voilà le genre de dons que nous souhaitons encourager. Se mettre dans cette démarche, faire un pas de côté par rapport à nos habitudes, c’est faire un pas vers l’utopie et vers de belles rencontres.",
+                "two": "Nous vous encourageons à ramener des choses pour les autres."
+            }
+            
+        },
+        "privacy": {
+            "title": "Vie privée",
+            "desctipion": {
+                 "one": "Ce qui se passe à la Fête reste à la Fête. Merci de respecter le droit à la vie privée de chacun·e en demandant l’autorisation avant de prendre une photo (un peu de bon sens et tout ira bien). Rien ne doit se retrouver sur Internet sans l’autorisation des personnes figurant sur les photos/vidéos. On vous fait confiance, le consentement c’est dans ce domaine aussi."
+            }
+           
+        }, 
+        "autonomy": {
+            "title": "Autonomie",
+            "description": {
+                "one": "Nous vous encourageons à être indépendants et attentifs à vous-mêmes, à prendre soin de vos besoins physiques et émotionnels. Si vous avez besoin de quelque chose, demandez-le aux personnes avec lesquelles vous vous sentez bien ou aux leads.",
+                "two": "Nous ne courrons pas après les invité·es et partons du principe que chacun saura s’occuper de lui-même ou elle-même et demander un coup de main/du soutien/des conseils si nécessaire."
+            }
+            
+        }
+    }
+
+}

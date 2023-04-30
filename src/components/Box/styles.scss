@@ -43,6 +43,7 @@
         margin-left: 104px;
         margin-right: 104px;
         margin-top: 24px;
+        width: 80%;
         @media screen and (max-width: 767px){
             flex-direction: column;
             align-items: center;
@@ -50,6 +51,7 @@
             margin-left: 0px;
             margin-right: 0px;
             margin-bottom: 22px;
+            width: 100%;
         }
     }
     &--one:before{

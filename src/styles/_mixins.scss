@@ -16,3 +16,11 @@
     content: '';
     position: absolute;
 }
+
+@mixin content-text {
+    color: $text-color;
+    font-family: 'Montserrat', serif;
+    font-size: 16px;
+    padding-top: 16px;
+    font-weight: 400;
+}

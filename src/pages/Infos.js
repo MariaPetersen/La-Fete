@@ -4,25 +4,34 @@ import PageTitle from '../components/PageTitle/PageTitle';
 // import Box from "../components/Box/Box";
 import Textbox from "../components/Textbox/Textbox";
 import { Outlet } from "react-router-dom";
+import { withTranslation } from 'react-i18next';
 
-const Infos = () => {
-    return <div className="container">
+const Infos = ({ t }) => {
+
+  const pages = [
+    {
+      title: `${t('practicalInfo.location.title')}`,
+      link: './lieu',
+    },
+    {
+      title: `${t('practicalInfo.planning.title')}`,
+      link: "./planning"
+    },
+    {
+      title: `${t('practicalInfo.rooms.title')}`,
+      link: "./chambres"
+    },
+    {
+      title: `${t('practicalInfo.government.title')}`,
+      link: "./government"
+    },
+  ]
+
+  return <div className="container">
     <Header />
-    <PageTitle title="Informations pratiques" />
-    <Textbox pages={pages} content={<Outlet />}/>
+    <PageTitle title={t('practicalInfo.title')} />
+    <Textbox pages={pages} content={<Outlet />} />
   </div>
 }
 
-const pages = [
-  {title: "Lieu",
-  link: './lieu',},
-  {title: "Planning cuisine et ménage",
-  link: "./planning"},
- {title: "Chambres et wifi",
- link: "./chambres"},
- {title: "Transport", 
- link: "./transport"},
- {title: "Gouvernement",
-link: "./gouvernement"}]
-
-export default Infos
+export default withTranslation()(Infos)

@@ -2,6 +2,36 @@
 
 .header{
     display: flex;
+    align-items: center;
+    @media screen and (max-width: 767px){
+        flex-direction: column;
+
+    }
+}
+
+.lng-button {
+    height: 25px;
+    width: 25px;
+    color: $line-color;
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
+    background-color: $background-color;
+    border: solid $line-color 1px;
+    border-radius: 3px;
+    display: flex;
+    &__container{
+        display: flex;
+        justify-content: space-between;
+        width: 60px;
+        margin-right: 80px;
+        margin-left: -140px;
+        @media screen and (max-width: 767px){
+            margin-left: 0px;
+            margin-right: 0px;
+            margin-top: 16px;
+        }
+    }
 }
 
 .lafete-logo {
