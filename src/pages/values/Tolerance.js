@@ -1,5 +1,5 @@
-import { Text } from "../../components/Text/Text"
-import { Title } from "../../components/Textbox/Textbox"
+import Text from "../../components/Text Components/Text/Text"
+import Title from "../../components/TitleComponents/H2Title/H2Title"
 import i18next from "./../../i18n"
 
 const Tolerance = () => {

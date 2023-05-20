@@ -1,6 +1,6 @@
-import { Title } from "../../components/Textbox/Textbox"
-import TextTitle from "../../components/PageTitle/TextTitle"
-import { Text } from "../../components/Text/Text"
+import Text from "../../components/Text Components/Text/Text"
+import Title from "../../components/TitleComponents/H2Title/H2Title"
+import TextTitle from "../../components/TitleComponents/TextTitle/TextTitle"
 
 const Saturday = () => {
     return <div className="container">

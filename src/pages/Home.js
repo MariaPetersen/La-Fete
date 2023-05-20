@@ -1,8 +1,9 @@
 import React from "react";
 import Header from '../components/Header/Header'
-import PageTitle from '../components/PageTitle/PageTitle';
-import Paragraph from '../components/Text/Text'
+import PageTitle from '../components/TitleComponents/PageTitle/PageTitle';
+import Paragraph from "../components/Text Components/Paragraph/Paragraph";
 import Box from '../components/Box/Box';
+import "./styles.scss"
 import { withTranslation } from 'react-i18next';
 
 const Home = ({ t }) => {
@@ -37,11 +38,14 @@ const Home = ({ t }) => {
   return <div className="container">
     <Header />
     <PageTitle title={'home.title'} arrowClass="invisible" />
-    <Paragraph textContent={'home.paragraphs.one'} />
-    <Paragraph textContent={'home.paragraphs.two'} />
-    <Paragraph textContent={'home.paragraphs.three'} />
-    <Paragraph textContent={'home.paragraphs.four'} />
-    <Box boxes={boxes} />
+    <div className="textbox--home">
+
+      <Paragraph textContent={'home.paragraphs.one'} />
+      <Paragraph textContent={'home.paragraphs.two'} />
+      <Paragraph textContent={'home.paragraphs.three'} />
+      <Paragraph textContent={'home.paragraphs.four'} />
+      <Box boxes={boxes} />
+    </div>
   </div>
 }
 

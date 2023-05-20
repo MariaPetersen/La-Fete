@@ -1,6 +1,6 @@
 import "./styles.scss"
 import { Link } from "react-router-dom";
-import arrow from "../../assets/icons/arrow.png"
+import arrow from "../../../assets/icons/arrow.png"
 import { useTranslation } from "react-i18next";
 
 const PageTitle = (props) => {

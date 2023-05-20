@@ -19,6 +19,7 @@ i18n
         resources,
         lng: "fr",
         keySeparator: ".",
+        nsSeparator: false,
         interpomation: {
             escapevalue: false,
         },

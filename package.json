@@ -1,5 +1,5 @@
 {
-  "name": "la-fete",
+  "name": "client",
   "version": "0.1.0",
   "homepage": "https://lafete.party",
   "private": true,
@@ -26,6 +26,7 @@
     "eject": "react-scripts eject",
     "prefix": "postcss ./"
   },
+  "proxy": "http://localhost:5000",
   "eslintConfig": {
     "extends": [
       "react-app",

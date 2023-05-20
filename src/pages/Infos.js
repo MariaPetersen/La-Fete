@@ -1,6 +1,6 @@
 import "./styles.scss"
 import Header from '../components/Header/Header'
-import PageTitle from '../components/PageTitle/PageTitle';
+import PageTitle from '../components/TitleComponents/PageTitle/PageTitle';
 // import Box from "../components/Box/Box";
 import Textbox from "../components/Textbox/Textbox";
 import { Outlet } from "react-router-dom";

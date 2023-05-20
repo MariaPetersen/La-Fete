@@ -120,7 +120,11 @@ const router = createBrowserRouter([
   {
     path: "/inscription",
     element: <Inscription />
-  }
+  },
+  {
+    path: "*",
+    element: <Home />,
+  },
 ]
 )
 
@@ -128,3 +132,4 @@ ReactDOM.createRoot(document.getElementById("root")).render(
   <RouterProvider router={router} />
 );
 
+ 

@@ -1,8 +1,8 @@
 import "./../styles.scss"
 import { useTranslation } from "react-i18next"
 import i18next from "./../../i18n"
-import { Text } from "../../components/Text/Text"
-import { Title } from "../../components/Textbox/Textbox"
+import Text from "../../components/Text Components/Text/Text"
+import Title from "../../components/TitleComponents/H2Title/H2Title"
 
 
 const Planning = () => {
