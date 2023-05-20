@@ -1,0 +1,25 @@
+@import "../../styles/styles.scss";
+
+.timetable{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 0px;
+    margin: auto;
+    &__time{
+        text-align: start;
+        @include content-text
+    }
+}
+
+.image{
+    margin-bottom: 24px;
+    width: 90%;
+    &__container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 90%;
+        margin: auto;
+    }
+}
