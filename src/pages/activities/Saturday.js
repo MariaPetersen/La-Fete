@@ -4,7 +4,7 @@ import TextTitle from "../../components/TitleComponents/TextTitle/TextTitle"
 
 const Saturday = () => {
     return <div className="container">
-        <Title title={'activites.saturday.title'} />
+        {/* <Title title={'activites.saturday.title'} /> */}
         <Text textContent={'activites.saturday.description'} />
         <Text textContent={'activites.saturday.activities'} />
         <TextTitle translation={'activites.saturday.ceremony.title'} />

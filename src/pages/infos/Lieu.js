@@ -14,7 +14,7 @@ import "./../../assets/images/gite-photo_1.webp"
 const Lieu = () => {
   const { t } = useTranslation()
   return <div className="container">
-    <Title title={'practicalInfo.location.title'} />
+    {/* <Title title={'practicalInfo.location.title'} /> */}
     {Object.values(i18next.t('practicalInfo.location.paragraphs', { returnObjects: true }))
       .map((value) => {
         return <Text textContent={value} />

@@ -48,6 +48,8 @@
     position: relative;
     width: fit-content;
     margin: auto;
+    margin-left: 5px;
+    margin-right: 5px;
     margin-bottom: 16px;
     &::after{
         content: '';

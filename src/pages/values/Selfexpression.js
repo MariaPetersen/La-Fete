@@ -4,7 +4,7 @@ import i18next from "./../../i18n"
 
 const Selfexpression = () => {
     return <div>
-        <Title title={'values.selfexpression.title'} />
+        {/* <Title title={'values.selfexpression.title'} /> */}
         {Object.values(i18next.t('values.selfexpression.description', { returnObjects: true }))
             .map((value) => {
                 return <Text textContent={value} />

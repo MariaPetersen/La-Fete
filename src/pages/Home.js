@@ -13,19 +13,19 @@ const Home = ({ t }) => {
       id: 1,
       className: "box box--one",
       name: `${t('home.menu.one')}`,
-      link: "./infos"
+      link: "./infos/lieu"
     },
     {
       id: 2,
       className: "box box--two",
       name: `${t('home.menu.two')}`,
-      link: "./activites"
+      link: "./activites/ceremonies"
     },
     {
       id: 3,
       className: "box box--three",
       name: `${t('home.menu.three')}`,
-      link: "./valeurs"
+      link: "./valeurs/bilinguism"
     },
     // {
     //   id: 4,
