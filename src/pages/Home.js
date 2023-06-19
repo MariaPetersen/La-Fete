@@ -13,7 +13,7 @@ const Home = ({ t }) => {
       id: 1,
       className: "box box--one",
       name: `${t('home.menu.one')}`,
-      link: "./infos"
+      link: "./infos/lieu"
     },
     {
       id: 2,
@@ -27,12 +27,12 @@ const Home = ({ t }) => {
       name: `${t('home.menu.three')}`,
       link: "./valeurs"
     },
-    // {
-    //   id: 4,
-    //   className: "box box--four",
-    //   name: "Inscriptions et propositions",
-    //   link: "./inscription"
-    // }
+    {
+      id: 4,
+      className: "box box--four",
+      name: "Inscriptions et propositions",
+      link: "./inscription"
+    }
   ]
 
   return <div className="container">
