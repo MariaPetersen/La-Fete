@@ -1,31 +1,39 @@
 <?php 
+try {
+    $db = new PDO(
+    'mysql:host=localhost;dbname=la_fete;charset=utf8',
+    'root',
+    'root',
+    [PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION]);
+} 
+catch (Exception $e) {
+    die('Erreur: ' . $e->getMessage());
+}
+
     header("Access-Control-Allow-Origin: *");
     header("Access-Control-Allow-Headers: *"); 
     $rest_json = file_get_contents("php://input");
     $_POST = json_decode($rest_json, true);
 
-    if (!isset($_POST['name'])) die();
+    if (!isset($_POST['name']) || !isset($_POST['email'])) die();
 
     if($_POST){
         http_response_code(200);
         echo $_POST['name'];
     }
     if($_POST){
+
+        $name = $_POST['name'];
+        $email = $_POST['email'];
+
         http_response_code(200);
-        $subject = $_POST['name'];
-        $to = "mau.petersen@gmail.com";
-        $from = $_POST['email'];
-
-        $message = $_POST['name'];
-
-        $headers = "MIME-Version: 1.0\r\n";
-        $headers.= "Content-type: text/html; charset=UTF-8\r\n";
-        $headers.= "From: " . $from;
-        mail($to, $subject, $message, $headers);
+        $sqlQuery = 'INSERT INTO participants(full_name, email) VALUES (:full_name, :email)';
         
-        echo json_encode(array(
-            "sent" => true
-        ));
+        $insertParticipant = $db->prepare($sqlQuery);
+        $insertParticipant->execute([
+            'full_name' => $name,
+            'email' => $email
+        ]);
     }
 
 ?>
