@@ -1,6 +1,7 @@
 import GovernmentProfile from "../../../components/Government/GovernmentProfile/GovernmentProfile";
 import { useTranslation } from "react-i18next";
 import photoChloe from "../../../assets/images/ministers/photos_chloe.jpeg"
+import photoPeter from "../../../assets/images/ministers/photos_peter.jpg"
 import GovernmentTitle from "../../../components/Government/GovernmentTitle/GovernmentTitle";
 import "./styles.scss"
 
@@ -20,7 +21,9 @@ const Photos = () => {
             <GovernmentProfile 
             title={'practicalInfo.government.photos.title'}
             role="practicalInfo.government.photos.ministry"
-            photo={{backgroundColor: "#463148"}} 
+            photo={{
+                backgroundImage: `url(${photoPeter})`,
+            }}
             name="Peter"
             />
         </div>
