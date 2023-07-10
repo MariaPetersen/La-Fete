@@ -17,6 +17,12 @@ const Photos = () => {
             role="practicalInfo.government.photos.ministry" 
             name="Chloé"
             />
+            <GovernmentProfile 
+            title={'practicalInfo.government.photos.title'}
+            role="practicalInfo.government.photos.ministry"
+            photo={{backgroundColor: "#463148"}} 
+            name="Peter"
+            />
         </div>
     </div>
         
