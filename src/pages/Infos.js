@@ -23,7 +23,7 @@ const Infos = ({ t }) => {
     },
     {
       title: `${t('practicalInfo.government.title')}`,
-      link: "./government"
+      link: "./government/president"
     },
   ]
 

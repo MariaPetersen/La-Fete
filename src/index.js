@@ -7,7 +7,6 @@ import Inscription from './pages/Inscription';
 import Lieu from './pages/infos/Lieu';
 import Planning from './pages/infos/Planning';
 import Chambres from './pages/infos/Chambres';
-import Gouvernement from './pages/infos/Gouvernment';
 import Ceremonies from './pages/activities/Ceremonies';
 import Friday from './pages/activities/Friday';
 import Saturday from './pages/activities/Saturday';
@@ -21,13 +20,20 @@ import Privacy from './pages/values/Privacy';
 import Selfexpression from './pages/values/Selfexpression';
 import Tolerance from './pages/values/Tolerance';
 import Traces from './pages/values/Traces';
-
+import President from './pages/infos/government/President';
 import "./i18n"
-
 import {
   createBrowserRouter,
   RouterProvider,
 } from "react-router-dom";
+import Food from './pages/infos/government/Food';
+import Transport from './pages/infos/government/Transport';
+import Workshops from './pages/infos/government/Workshops';
+import CeremonyMinisters from './pages/infos/government/CeremonyMinisters';
+import Music from './pages/infos/government/Music';
+import Photos from './pages/infos/government/Photos';
+import ConsentMinisters from './pages/infos/government/ConsentMinsters';
+import Comms from './pages/infos/government/Comms';
 
 const router = createBrowserRouter([
   {
@@ -51,7 +57,45 @@ const router = createBrowserRouter([
     },
     {
       path: "government",
-      element: <Gouvernement />,
+      children: [
+        {
+          path: "president",
+          element: <President />,
+        },
+        {
+          path: "food",
+          element: <Food />,
+        },
+        {
+          path: "transport",
+          element: <Transport />,
+        },
+        {
+          path: "workshops",
+          element: <Workshops />,
+        },
+        {
+          path: "ceremonyministers",
+          element: <CeremonyMinisters />,
+        },
+        {
+          path: "music",
+          element: <Music />,
+        },
+        {
+          path: "photos",
+          element: <Photos />,
+        },
+        {
+          path: "consentministers",
+          element: <ConsentMinisters />,
+        },
+        {
+          path: "communication",
+          element: <Comms />,
+        }
+      ]
+
     },
     ]
   },
@@ -132,4 +176,3 @@ ReactDOM.createRoot(document.getElementById("root")).render(
   <RouterProvider router={router} />
 );
 
- 

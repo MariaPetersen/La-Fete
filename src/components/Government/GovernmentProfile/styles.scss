@@ -1,0 +1,39 @@
+@import "../../../styles/styles.scss";
+
+.government{
+    margin-bottom: 50px;
+    @media screen and (max-width: 767px){
+        margin-bottom: 30px;
+    }
+    &__profile{
+        display: flex;
+        align-items: center;
+        @media screen and (max-width: 767px){
+            flex-direction: column;
+        }
+    }
+    &--photo{
+        width: 200px;
+        height: 200px;
+        border: double $line-color;
+        border-radius: 20px;
+        background-size: cover;
+    }
+    &__title{
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+        margin-left: 50px;
+        font-weight: 400;
+        @media screen and (max-width: 767px){
+            margin-top: 70px;
+            margin-left: 0px;
+        }
+        &--role{
+            color: $line-color;
+            font-weight: 400;
+            margin-top: -50px;
+        }
+    }
+}
+

@@ -59,7 +59,44 @@
              }
          },
          "government":{
-             "title": "Leads & governments",
+            "title": "Leads & governments",
+            "president": {
+                "title": "Presidents of la Fête",
+                "ministry": {
+                    "female": "President",
+                    "male": "President"
+                }
+            },
+            "food": {
+                "title": "Food & alcohol",
+                "ministry": "Minister of Cheese"},
+            "transport": { 
+                "title": "Travel",
+                "ministry":  "Minister of Harmony" },
+            "workshops": {
+                "title": "Workshops",
+                "ministry": "Minister of magic"
+            },
+            "ceremonies": {
+                "title": "Ceremonies",
+                "ministry": "Minister of Myths"
+            },
+            "music": {
+                "title": "Music",
+                "ministry": "Minister of Joy"
+            },
+            "photos": {
+                "title": "Pictures",
+                "ministry": "Minister of Memories"
+            },
+            "consent": {
+                "title": "Consent",
+                "ministry": "Minister of Sexiness"
+            }, 
+            "communication": {
+                "title": "Comms",
+                "ministry": "Minister of Propaganda "
+            },
              "paragraphs": {
                  "one": "To be announced"
              }

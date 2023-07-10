@@ -62,10 +62,46 @@
         },
         "government":{
             "title": "Leads et gouvernement",
+            "president": {
+                "title": "Président·es de la Fête",
+                "ministry": {
+                    "female": "Présidente",
+                    "male": "Président"
+                }
+            },
+            "food": {
+                "title": "Bouffe et alcool",
+                "ministry": "Ministre du fromage"},
+            "transport": { 
+                "title": "Transport",
+                "ministry":  "Ministre de l’harmonie" },
+            "workshops": {
+                "title": "Ateliers",
+                "ministry": "Ministre de la magie"
+            },
+            "ceremonies": {
+                "title": "Cérémonies",
+                "ministry": "Ministre du mythe"
+            },
+            "music": {
+                "title": "Musique",
+                "ministry": "Ministre du kiff"
+            },
+            "photos": {
+                "title": "Photos",
+                "ministry": "Ministre des souvenirs"
+            },
+            "consent": {
+                "title": "Consentement",
+                "ministry": "Ministre du sexiness"
+            }, 
+            "communication": {
+                "title": "Communication",
+                "ministry": "Ministre de la propagande"
+            },
             "paragraphs": {
                 "one": "A venir"
             }
-            
         }
     },
 
