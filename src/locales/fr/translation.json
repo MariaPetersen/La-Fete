@@ -46,7 +46,7 @@
             }
         },
         "planning": {
-            "title": "Planning cuisine et ménage",
+            "title": "Planning cuisine et nettoyage",
             "thursday": {
                 "dinner": {
                     "title": "Jeudi soir",
@@ -72,9 +72,9 @@
             "saturday": {
                 "lunch": {
                     "title": "Samedi midi",
-                    "cooking": "Cuisine: Audrey, Jeong A, Sami, Sophie Z., Eva",
+                    "cooking": "Cuisine: Albin, Jeong A, Sami, Sophie Z., Eva",
                     "cleaning": "Débarrassage et nettoyage: Clémentine, Claude, Marjolaine, Andréa , Damien, Erwan, Cati, Tiphaine",
-                    "lead": "Responsable cuisine: Audrey"
+                    "lead": "Responsable cuisine: Albin"
                 },
                 "dinner": {
                     "title": "Samedi soir",
@@ -87,7 +87,7 @@
                 "lunch": {
                     "title": "Dimanche midi",
                     "cooking": "Cuisine: Anis, Tiphaine, Ioana, Sophie M., James",
-                    "cleaning": "Débarrassage et nettoyage: Sami, Lola, Sam, Eloïse, Caroline, Alice, Cindy, Audrey",
+                    "cleaning": "Débarrassage et nettoyage: Sami, Lola, Sam, Eloïse, Caroline, Alice, Cindy",
                     "lead": "Responsable cuisine: Anis"
                 },
                 "dinner": {

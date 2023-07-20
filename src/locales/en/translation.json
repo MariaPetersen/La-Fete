@@ -71,9 +71,9 @@
             "saturday": {
                 "lunch": {
                     "title": "Saturday lunch",
-                    "cooking": "Cooking: Audrey, Jeong A, Sami, Sophie Z., Eva",
+                    "cooking": "Cooking: Albin, Jeong A, Sami, Sophie Z., Eva",
                     "cleaning": "Cleaning up: Clémentine, Claude, Marjolaine, Andréa , Damien, Erwan, Cati, Tiphaine",
-                    "lead": "Lead cook: Audrey"
+                    "lead": "Lead cook: Albin"
                 },
                 "dinner": {
                     "title": "Saturday dinner",
@@ -86,7 +86,7 @@
                 "lunch": {
                     "title": "Sunday lunch",
                     "cooking": "Cooking: Anis, Tiphaine, Ioana, Sophie M., James",
-                    "cleaning": "Cleaning up: Sami, Lola, Sam, Eloïse, Caroline, Alice, Cindy, Audrey",
+                    "cleaning": "Cleaning up: Sami, Lola, Sam, Eloïse, Caroline, Alice, Cindy",
                     "lead": "Lead cook: Anis"
                 },
                 "dinner": {
