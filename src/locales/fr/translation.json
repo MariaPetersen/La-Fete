@@ -1,18 +1,18 @@
 {
-   "home":{
-        "title": "Présentation", 
+    "home": {
+        "title": "Présentation",
         "paragraphs": {
             "one": "“La Fête” ? C’est quoi les bails ?",
             "two": "Comme son nom l’indique, la Fête est un événement festif autour de belles valeurs partagées, le tout participatif. Plus précisément, on vous invite à passer 3 jours ensemble dans un grand gite à s’amuser, discuter, danser, profiter du soleil et de la piscine ou toute autre activité que vous aimeriez proposer.",
             "three": "La Fête est née de la célébration des anniversaires et de l’amour unissant de deux meilleur·es ami·es, Romain et Ana. Pour sa troisième édition, nous souhaitons perpétuer ce rendez-vous estival. La Fête revient donc en 2023 pour un moment magique et grandiose avec juste une bonne dose de folie. Réservez votre weekend du vendredi 20 au dimanche 23 juillet (possibilité de rester jusqu'au lundi 24).",
             "four": "Et parce qu’on aime célébrer, créer, se déguiser, on vous propose lors de la Fête de participer à deux cérémonies un peu symboliques autour du thème \"Bacchanale de l’Espace\". Jetez un oeil à l'onglet \"cérémonies\" dans la partie \"activités\" pour plus d’infos !"
         },
-        "menu":{
+        "menu": {
             "one": "Infos pratiques",
             "two": "Activités",
             "three": "Nos principes et valeurs"
         }
-    }, 
+    },
 
     "practicalInfo": {
         "title": "Infos pratiques",
@@ -23,12 +23,11 @@
                     "date": "Dates : ",
                     "place": "Adresse : ",
                     "train": "Gare la plus proche : "
-
                 },
                 "date": "Vendredi 21 juillet au dimanche 23 juillet 2023",
                 "place": "Domaine des Lammes, 1 Rue des Surgeons, 89210 Venizy",
                 "train": "Saint-Florentin - Vergigny (1h30 de trajet en TER depuis Paris Bercy)"
-             },
+            },
             "paragraphs": {
                 "one": "Cette année la Fête a lieu au Domaine des Lammes. Ce grand gîte au milieu des champs peut accueillir une cinquantaine de personnes. Il contient notamment deux grandes maisons remplies de chambres et salles de bain, une salle de réception, une cuisine-salle à manger,une grande piscine… (Regardez les belles photos en bas de cette page !)",
                 "two": "Le gîte se situe dans l’Yonne, à un peu plus de 2h de Paris en voiture.",
@@ -48,19 +47,65 @@
         },
         "planning": {
             "title": "Planning cuisine et ménage",
-            "paragraphs": {
-                "one": "A venir",
-                "two": "Ici vous retrouverez l’organisation des repas et du débarrassage."
+            "thursday": {
+                "dinner": {
+                    "title": "Jeudi soir",
+                    "cooking": "Cuisine: Omar, Gwen, Elena",
+                    "cleaning": "Débarrassage et nettoyage: Ana Gruša, Elias, Tom, Sébastien C.",
+                    "lead": "Responsable cuisine: Omar"
+                }
+            },
+            "friday": {
+                "lunch": {
+                    "title": "Vendredi midi",
+                    "cooking": "Cuisine: Fred, Elias, Sébastien C.",
+                    "cleaning": "Débarrassage et nettoyage: Charlotte, Maria, Mélanie, Jernej, Albin.",
+                    "lead": "Responsable cuisine: Fred"
+                },
+                "dinner": {
+                    "title": "Vendredi soir",
+                    "cooking": "Cuisine: Sébastien F., Mélanie, Albin, Marjolaine, Claude, Clémentine",
+                    "cleaning": "Débarrassage et nettoyage: Fred, Chloé, Gwen, James, Cissou, Jeong A, Matthias",
+                    "lead": "Responsable cuisine: Sébastien F."
+                }
+            },
+            "saturday": {
+                "lunch": {
+                    "title": "Samedi midi",
+                    "cooking": "Cuisine: Audrey, Jeong A, Sami, Sophie Z., Eva",
+                    "cleaning": "Débarrassage et nettoyage: Clémentine, Claude, Marjolaine, Andréa , Damien, Erwan, Cati, Tiphaine",
+                    "lead": "Responsable cuisine: Audrey"
+                },
+                "dinner": {
+                    "title": "Samedi soir",
+                    "cooking": "Cuisine: Cissou, Cindy, Lola, Andréa, Damien, Lara",
+                    "cleaning": "Débarrassage et nettoyage: Lara, Sébastien F., Peter, Lily, Eva, Ioana, Anis, Sophie M.",
+                    "lead": "Responsable cuisine: Cissou"
+                }
+            },
+            "sunday": {
+                "lunch": {
+                    "title": "Dimanche midi",
+                    "cooking": "Cuisine: Anis, Tiphaine, Ioana, Sophie M., James",
+                    "cleaning": "Débarrassage et nettoyage: Sami, Lola, Sam, Eloïse, Caroline, Alice, Cindy, Audrey",
+                    "lead": "Responsable cuisine: Anis"
+                },
+                "dinner": {
+                    "title": "Dimanche soir",
+                    "cooking": "Cuisine: Peter, Lily, James",
+                    "cleaning": "Débarrassage et nettoyage: Sophie Z., Elena, Omar, Romain",
+                    "lead": "Responsable cuisine: Peter"
+                }
             }
         },
-        "rooms":{
-            "title": "Chambres et wifi",
+        "rooms": {
+            "title": "Wifi",
             "paragraphs": {
-                "one": "A venir",
-                "two": "Ici vous retrouverez les plans de chambre"
+                "one": "Network: Livebox - ED30",
+                "two": "Password: jN5dDWE6R3EhJ9ff9J"
             }
         },
-        "government":{
+        "government": {
             "title": "Leads et gouvernement",
             "president": {
                 "title": "Président·es de la Fête",
@@ -71,10 +116,12 @@
             },
             "food": {
                 "title": "Bouffe et alcool",
-                "ministry": "Ministre du fromage"},
-            "transport": { 
+                "ministry": "Ministre du fromage"
+            },
+            "transport": {
                 "title": "Transport",
-                "ministry":  "Ministre de l’harmonie" },
+                "ministry": "Ministre de l’harmonie"
+            },
             "workshops": {
                 "title": "Ateliers",
                 "ministry": "Ministre de la magie"
@@ -94,7 +141,7 @@
             "consent": {
                 "title": "Consentement",
                 "ministry": "Ministre du sexiness"
-            }, 
+            },
             "communication": {
                 "title": "Communication",
                 "ministry": "Ministre de la propagande"
@@ -105,7 +152,7 @@
         }
     },
 
-    "activites":{
+    "activites": {
         "title": "Activités",
         "ceremonies": {
             "title": "Soirées et cérémonies",
@@ -122,30 +169,90 @@
             }
         },
         "friday": {
-            "title": "Vendredi", 
-            "description": "A venir",
-            "activities": "Ici vous retrouverez le planning des activités proposées par les membres de la Fête et auxquelles vous pourrez participer !",
+            "title": "Vendredi",
+            "activities": {
+                "1700": {
+                    "event": "17h Bar à ongles et body painting - Cindy et Caroline, Jardin",
+                    "description": "Pimpez votre peau et vos ongles (ou ceux de quelqu'un d'autre) avec une palette colorée de vernis à ongles, détendez-vous avec d'autres personnes et préparez-vous pour la fête... tout en mangeant des bonbons ! En self service toute la soirée."
+                },
+                "1800": {
+                    "event": "18h Drag race - Tom, Chill Room",
+                    "description": "Regardons ensemble le quatrième épisode de Drag Race France Saison 2 qui sort le jour-même à cette heure précise !"
+                },
+                "2100": {
+                    "event": "21h Dîner et annonce du jeu - Grande Salle",
+                    "description": "Tout au long du weekend vous serez à la fois hamster et cacahuète ! A votre arrivée vous tirerez au sort le prénom de la personne qui sera votre cacahuète. à vous d'en prendre soin tout au long du week-end sans qu'elle ne s'en aperçoive !"
+                },
+                "2300": {
+                    "event": "23h Cérémonie  “Curiosités venues d’ailleurs” - rdv devant les Glycines",
+                    "description": "Venez incarner un être d’une autre galaxie. Cette soirée cosmique sera placée sous le signe de la rencontre, de l'altérité et de l’ouverture."
+                }
+            },
             "ceremony": {
                 "title": "Soir : ",
                 "description": "Cérémonie “Curiosités venues d’ailleurs” et partyyyyy"
             }
-        }, 
+        },
         "saturday": {
-            "title": "Samedi", 
-            "description": "A venir",
-            "activities": "Ici vous retrouverez le planning des activités proposées par les membres de la Fête et auxquelles vous pourrez participer !",
+            "title": "Samedi",
+            "activities": {
+                "1130": {
+                    "event": "11h30 Tricotage de seins - Sophie, Préau",
+                    "description": "Pour celles et ceux qui veulent apprendre à tricoter, pourquoi ne pas commencer par une petite paire de seins ? Le matériel sera fourni."
+                },
+                "1300": {
+                    "event": "13h Déjeuner"
+                },
+                "1400": {
+                    "event": "14h Lettre à mon futur moi - Cindy, Préau",
+                    "description": "Écris une lettre à ton toi du futur: Dis-lui qui tu es aujourd'hui, tes rêves, tes valeurs et tes désirs pour le futur. Choisis à quel moment tu veux que ta lettre soit lue, scelle-la, et emmène-la avec toi pour plus tard!"
+                },
+                "1500": {
+                    "event": "15h Le consentement dans la commu sexpositive  - Caroline et Sébastien, Chill Room",
+                    "description": "Parlons du consentement. Et comment les mouvements sexpositifs l'ont redéfini pour une sexualité plus sûre, le kink et les interactions dans les événements ou n'importe où ailleurs."
+                },
+                "1700": {
+                    "event": "17h Jeux Olympiques - Maria, Piscine",
+                    "description": "Une séries de défis à accomplir en équipe pour gagner les JO de la Fête"
+                },
+                "1830": {
+                    "event": "18h30 Discussion usages de drogues - Sébastien, Chill Room",
+                    "description": "Juste un petit cercle de parole pour celles et ceux  qui voudraient poser des questions sur la consommation de drogues, ce qu'il ne faut pas faire, comment éviter de faire des choses risquées et  partager des expériences."
+                },
+                "1930": {
+                    "event": "19h30 Dégustation de vin ludique + blind test + apéro - Sam et Eva, Jardin",
+                    "description": "Saurez-vous distinguer le bon vin de l’ivraie ? Saurez-vous deviner les chansons préférées d'Ana et Romain et autres plaisirs coupables de ce quiz (sans utiliser Shazam bien sûr)?"
+                },
+                "2100": {
+                    "event": "21h Dîner - Grande Salle"
+                },
+                "2300": {
+                    "event": "23h Cérémonie “Rave mythologique” - rdv Grande Salle",
+                    "description": "Pour cette soirée de Bacchanale, les divinités, héros et créatures fantastiques du monde antique célébreront de manière ludique l’ivresse, les excès et la joie d’être ensemble."
+                }
+            },
             "ceremony": {
                 "title": "Soir : ",
                 "description": "Cérémonie “Rave mythologique” et partyyyy"
             }
-            
-        }, 
+        },
         "sunday": {
             "title": "Dimanche",
             "description": "A venir",
-            "activities": "Ici vous retrouverez le planning des activités proposées par les membres de la Fête et auxquelles vous pourrez participer !"
+            "activities": {
+                "1130": {
+                    "event": "11h30 La conférence du dimanche - Romain, Chill Room",
+                    "description": "Cette année, de l'histoire : L'Etat face aux peuples de Russie et d'URSS de 1853 à 1991. Venez apprendre des trucs ou comater. En français."
+                },
+                "1230": {
+                    "event": "12h30 déjeuner - Grande Salle"
+                },
+                "1330": {
+                    "event": "13h30 massages - Chloé, Jardin", 
+                    "description": "Tout est dans le titre ;) quoi de mieux qu'un petit massage pour faire passer sa gueule de bois ?"
+                }
+            }
         }
-        
     },
 
     "values": {
@@ -154,44 +261,38 @@
         "participation": {
             "title": "Participation",
             "description": {
-                 "one": "Tout au long des festivités, chaque personne est invitée à participer à la création de l'événement selon ses envies, ses moyens et ses compétences. Vous pouvez rejoindre l’équipe de cuisine, organiser une activité, aller chercher en voiture celles et ceux qui arrivent par la gare… L’important, c’est de s’impliquer !"
+                "one": "Tout au long des festivités, chaque personne est invitée à participer à la création de l'événement selon ses envies, ses moyens et ses compétences. Vous pouvez rejoindre l’équipe de cuisine, organiser une activité, aller chercher en voiture celles et ceux qui arrivent par la gare… L’important, c’est de s’impliquer !"
             }
-           
         },
         "bilinguism": {
             "title": "Bilinguisme",
             "description": {
                 "one": "La Fête n’est pas réservée aux francophones, certaines personnes viennent du Royaume-Unis, de Slovénie ou d’ailleurs. Afin que tout le monde soit inclus, la communication se fera en français et en anglais. Vous êtes encouragé·es à surmonter la barrière de la langue, à traduire quand vous le pouvez, bref à trouver les meilleurs moyens pour communiquer selon la situation."
             }
-            
         },
         "selfexpression": {
             "title": "Expression de soi",
             "description": {
                 "one": "Les injonctions et conventions nous pèsent au quotidien. Pendant, la Fête n’hésitez pas à les envoyer valser, à être vous-même. Profitons aussi de cet espace pour nous exprimer et pour créer : tous les ateliers créatifs sont les bienvenus."
             }
-            
         },
         "tolerance": {
             "title": "Tolérance",
             "description": {
                 "one": "Les participant·es viennent de différents milieux, pays, et cheminements personnels. Leurs expressions de genre, leurs orientations sexuelles, leurs positions politiques ou leurs régimes alimentaires peuvent être différents des vôtres. Afin que chacun·e passe un moment merveilleux, nous vous encourageons chacun à faire preuve d’empathie, de bienveillance et d’ouverture d’esprit."
             }
-            
         },
         "consent": {
             "title": "Consentement",
             "description": {
                 "one": "Nous souhaitons que chaque personne se sente en sécurité et respectée pendant la Fête. Pas de secret, le consentement, c’est la clé : demandez-le explicitement, de quelque façon que ce soit, avant de toucher ou de vous imposer aux autres. S’il n’y a pas de oui enthousiaste, ça veut dire non. Respectons les limites de tout le monde et n’oublions pas que le consentement peut être révoqué à tout moment."
             }
-            
         },
         "traces": {
             "title": "Ne pas laisser de traces",
             "description": {
                 "one": "Lors de la Fêtes, nous comptons nous approprier l’espace et les décorations en tous genre seront les bienvenues. Mais notre événement est éphémère et il est important de rendre le lieu dans le même état que celui où nous l’avons trouvé. Merci de faire attention à ramasser et trier vos déchets et ne pas laisser traîner vos verres sales."
             }
-            
         },
         "gifts": {
             "title": "Don",
@@ -199,23 +300,19 @@
                 "one": "Donner de son temps, offrir un livre, prêter un de ses vêtements parce qu’il ira mieux à cet inconnu, voilà le genre de dons que nous souhaitons encourager. Se mettre dans cette démarche, faire un pas de côté par rapport à nos habitudes, c’est faire un pas vers l’utopie et vers de belles rencontres.",
                 "two": "Nous vous encourageons à ramener des choses pour les autres."
             }
-            
         },
         "privacy": {
             "title": "Vie privée",
             "description": {
-                 "one": "Ce qui se passe à la Fête reste à la Fête. Merci de respecter le droit à la vie privée de chacun·e en demandant l’autorisation avant de prendre une photo (un peu de bon sens et tout ira bien). Rien ne doit se retrouver sur Internet sans l’autorisation des personnes figurant sur les photos/vidéos. On vous fait confiance, le consentement c’est dans ce domaine aussi."
+                "one": "Ce qui se passe à la Fête reste à la Fête. Merci de respecter le droit à la vie privée de chacun·e en demandant l’autorisation avant de prendre une photo (un peu de bon sens et tout ira bien). Rien ne doit se retrouver sur Internet sans l’autorisation des personnes figurant sur les photos/vidéos. On vous fait confiance, le consentement c’est dans ce domaine aussi."
             }
-           
-        }, 
+        },
         "autonomy": {
             "title": "Autonomie",
             "description": {
                 "one": "Nous vous encourageons à être indépendants et attentifs à vous-mêmes, à prendre soin de vos besoins physiques et émotionnels. Si vous avez besoin de quelque chose, demandez-le aux personnes avec lesquelles vous vous sentez bien ou aux leads.",
                 "two": "Nous ne courrons pas après les invité·es et partons du principe que chacun saura s’occuper de lui-même ou elle-même et demander un coup de main/du soutien/des conseils si nécessaire."
             }
-            
         }
     }
-
 }

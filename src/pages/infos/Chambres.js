@@ -7,7 +7,7 @@ import Title from "../../components/TitleComponents/H2Title/H2Title"
 const Chambres = () => {
   const { t } = useTranslation()
   return <div className="container">
-    {/* <Title title={'practicalInfo.rooms.title'} /> */}
+    <Title title={'practicalInfo.rooms.title'} className="title title_mobile" />
     {Object.values(i18next.t('practicalInfo.rooms.paragraphs', { returnObjects: true }))
       .map((value) => {
         return <Text textContent={value} />

@@ -4,7 +4,7 @@ import i18next from "./../../i18n"
 
 const Tolerance = () => {
     return <div>
-        {/* <Title title={'values.tolerance.title'} /> */}
+        <Title title={'values.tolerance.title'} className="title title_mobile" />
         {Object.values(i18next.t('values.tolerance.description', { returnObjects: true }))
             .map((value) => {
                 return <Text textContent={value} />

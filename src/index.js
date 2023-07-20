@@ -34,6 +34,7 @@ import Music from './pages/infos/government/Music';
 import Photos from './pages/infos/government/Photos';
 import ConsentMinisters from './pages/infos/government/ConsentMinsters';
 import Comms from './pages/infos/government/Comms';
+import Gouvernement from './pages/infos/Gouvernment';
 
 const router = createBrowserRouter([
   {
@@ -57,6 +58,7 @@ const router = createBrowserRouter([
     },
     {
       path: "government",
+      element: <Gouvernement />,
       children: [
         {
           path: "president",

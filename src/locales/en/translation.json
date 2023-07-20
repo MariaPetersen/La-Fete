@@ -45,17 +45,63 @@
             }
          },
          "planning": {
-             "title": "Cooking and cleaning",
-             "paragraphs": {
-                 "one": "To be announced",
-                 "two": "Cooking & cleaning rota here."
-             }
+            "title": "Cooking and cleaning",
+            "thursday": {
+                "dinner": {
+                    "title": "Thursday dinner",
+                    "cooking": "Cooking: Omar, Gwen, Elena",
+                    "cleaning": "Cleaning up: Ana Gruša, Elias, Tom, Sébastien C.",
+                    "lead": "Lead cook: Omar"
+                }
+            },
+            "friday": {
+                "lunch": {
+                    "title": "Friday lunch",
+                    "cooking": "Cooking: Fred, Elias, Sébastien C.",
+                    "cleaning": "Cleaning up: Charlotte, Maria, Mélanie, Jernej, Albin.",
+                    "lead": "Lead cook: Fred"
+                },
+                "dinner": {
+                    "title": "Friday dinner",
+                    "cooking": "Cooking: Sébastien F., Mélanie, Albin, Marjolaine, Claude, Clémentine",
+                    "cleaning": "Cleaning up: Fred, Chloé, Gwen, James, Cissou, Jeong A, Matthias",
+                    "lead": "Lead cook: Sébastien F."
+                }
+            },
+            "saturday": {
+                "lunch": {
+                    "title": "Saturday lunch",
+                    "cooking": "Cooking: Audrey, Jeong A, Sami, Sophie Z., Eva",
+                    "cleaning": "Cleaning up: Clémentine, Claude, Marjolaine, Andréa , Damien, Erwan, Cati, Tiphaine",
+                    "lead": "Lead cook: Audrey"
+                },
+                "dinner": {
+                    "title": "Saturday dinner",
+                    "cooking": "Cooking: Cissou, Cindy, Lola, Andréa, Damien, Lara",
+                    "cleaning": "Cleaning up: Lara, Sébastien F., Peter, Lily, Eva, Ioana, Anis, Sophie M.",
+                    "lead": "Lead cook: Cissou"
+                }
+            },
+            "sunday": {
+                "lunch": {
+                    "title": "Sunday lunch",
+                    "cooking": "Cooking: Anis, Tiphaine, Ioana, Sophie M., James",
+                    "cleaning": "Cleaning up: Sami, Lola, Sam, Eloïse, Caroline, Alice, Cindy, Audrey",
+                    "lead": "Lead cook: Anis"
+                },
+                "dinner": {
+                    "title": "Sunday dinner",
+                    "cooking": "Cooking: Peter, Lily, James",
+                    "cleaning": "Cleaning up: Sophie Z., Elena, Omar, Romain",
+                    "lead": "Lead cook: Peter"
+                }
+            }
          },
          "rooms":{
-             "title": "Rooms et wifi",
+             "title": "Wifi",
              "paragraphs": {
-                 "one": "To be announced",
-                 "two": "Room distribution available here"
+                "one": "Network: Livebox - ED30",
+                "two": "Password: jN5dDWE6R3EhJ9ff9J"
              }
          },
          "government":{
@@ -126,7 +172,24 @@
          "friday": {
             "title": "Friday", 
             "description": "To be announced",
-            "activities": "Here you can find the planning for Friday's activities, organised by different participants of la Fête",
+            "activities": {
+                "1700": {
+                    "event": "17h Self service nails bar & body painting - Cindy and Caroline, Garden",
+                    "description": "Pimp your nails (or someone else's) with a colourful palette of nail polishes, chill with other people and get ready for the party... while eating candies!"
+                },
+                "1800": {
+                    "event": "18h Drag race - Tom, Chill Room",
+                    "description": "Let's watch together the fourth episode of Drag Race France season 2 which will be out on this day at 6pm !"
+                },
+                "2100": {
+                    "event": "21h Dinner & game announcement - Big Room",
+                    "description": "The whole weekend you will be both a hamster and a peanut! Upon your arrival, you’ll be assigned a name of a person who will be your “peanut” - a person to look after the whole weekend without them realising it!"
+                },
+                "2300": {
+                    "event": "23h Ceremony Curious creatures from a galaxy far, far away - In front of Les Glycines",
+                    "description": "Come and embody a being from another galaxy. This cosmic evening is all about encounters, alterity and openness."
+                }
+            },
             "ceremony": {
                 "title": "Evening: ",
                 "description": "Curious creatures from a galaxy far, far away"
@@ -135,7 +198,42 @@
          "saturday": {
             "title": "Saturday", 
             "description": "To be announced",
-            "activities": "Here you can find the planning for Saturday's activities, organised by different participants of la Fête",
+            "activities": { 
+                "1130": {
+                    "event": "11h30 Knit some tits - Sophie, Inner courtyard",
+                    "description": "For those who want to learn to knit, why not start with a little pair of tits! Materials will be provided."
+                },
+                "1300": {
+                    "event": "13h lunch - Big room"
+                },
+                "1400": {
+                    "event": "14h Letter to my future self - Cindy,  Inner courtyard",
+                    "description": "Write a letter to your future self : tell them who you are today, your dreams, your values and your wishes for the future. Decide how far into the future you want to read your letter, seal it and bring it home for later!"
+                },
+                "1500": {
+                    "event": "15h Consent culture in the sexpositive community - Caroline and Sebastien, Chill Room",
+                    "description": "Let’s talk about consent. And how sexpositive movements have redefined it for safer sexuality, kink and interactions in events or anywhere else."
+                },
+                "1700": {
+                    "event": "17h Olympic games - Maria, Swimming Pool",
+                    "description": "A series of challenges to complete witht he rest of your team to win the Olympic Games of La Fête!"
+                },
+                "1830": {
+                    "event": "18h30 Drug use, risk prevention and experience sharing - Sebastien",
+                    "description": "Just a little circle for those who would like to ask questions about drug use, what not to do, how to avoid doing risky things, experience sharing."
+                },
+                "1930": {
+                    "event": "19h30 Wine testing + blind test music quizz + apéro - Sam and Eva, Garden",
+                    "description": "Will you be able to guess Ana and Romain's favourite songs and other guilty pleasures of this quiz (without using Shazam of course!)?"
+                },
+                "2100": {
+                    "event": "21h Dinner - Big Room"
+                },
+                "2300": {
+                    "event": "23h Ceremony Mythological rave - Big Room",
+                    "description": "For this Bacchanalia evening, divinities, heroes and fantastic creatures from the antique world will be celebrating intoxication, excess and the joy of being together in a playful way."
+                }
+        },
             "ceremony": {
                 "title": "Evening: ",
                 "description": "Mythological rave"
@@ -144,7 +242,19 @@
          "sunday": {
              "title": "Sunday",
              "description": "To be announced",
-             "activities": "Here you can find the planning for Sundays's activities, organised by different participants of la Fête"
+             "activities": {
+                "1130": {
+                    "event": "11h30 The Sunday conférence - Romain, Chill Room",
+                    "description": "This year, history : The State and the peoples of Russia and the USSR from 1853 to 1991. Come and learn some stuff or just doze. In French."
+                },
+                "1230": {
+                    "event": "12h30 lunch - Big Room"
+                },
+                "1330": {
+                    "event": "13h30 massages - Chloé, Garden", 
+                    "description": "Nomen est omen - what better than a massage to cure a hangover?"
+                }
+             }
          }
          
      },

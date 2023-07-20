@@ -4,7 +4,7 @@ import i18next from "./../../i18n"
 
 const Traces = () => {
     return <div>
-        {/* <Title title={'values.traces.title'} /> */}
+        <Title title={'values.traces.title'} className="title title_mobile" />
         {Object.values(i18next.t('values.traces.description', { returnObjects: true }))
             .map((value) => {
                 return <Text textContent={value} />
